@@ -7,11 +7,16 @@ module.exports = {
         center: true,
         padding: "24px",
       },
+      screens: {
+        xxl: "1380px",
+      },
       colors: {
         "orange": "#E67E22",
         "light-dark": "#4D4D4D",
+        "light-pink": "#FFF7EF",
       },
       fontSize: {
+        "custom-lg": "32px",
         "custom-xl": "40px",
         "custom-2xl": "96px",
       },
