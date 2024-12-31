@@ -18,7 +18,8 @@ module.exports = {
       fontSize: {
         "custom-lg": "32px",
         "custom-xl": "40px",
-        "custom-2xl": "96px",
+        "custom-2xl": "60px",
+        "custom-3xl": "96px",
       },
       lineHeight: {
         110: "110%",

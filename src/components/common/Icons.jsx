@@ -7,7 +7,12 @@ const Icons = ({ iconName, className }) => {
         ),
         underline: (
             <svg width="26" height="4" viewBox="0 0 26 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1.38989 2L24.2778 2" stroke="black" stroke-width="2.35501" stroke-linecap="round" />
+                <path
+                    d="M1.38989 2L24.2778 2"
+                    className={className}
+                    stroke-width="2.35501"
+                    stroke-linecap="round"
+                />
             </svg>
         ),
         leftArrow: (

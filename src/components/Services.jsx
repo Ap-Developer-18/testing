@@ -20,30 +20,31 @@ const Services = () => {
     }
 
     return (
-        <div className="py-[150px] relative">
-            <div className="container max-w-[1188px] relative z-30">
+        <div className="py-16 md:py-20 lg:py-28 xl:py-[150px] relative">
+            <div className="container lg:max-w-[1188px] relative z-30">
                 <SectionName textName="Services" className="justify-center" />
                 <Heading className="text-center" firstText="Your&nbsp;" simpleText="Gateway to" secondText="Aerial Excellence" />
-                <div className="mt-12">
+                <div className="mt-4 sm:mt-8 md:mt-10 lg:mt-12">
                     {SERVICES.map((obj, id) => (
                         id === index && (
-                            <div className="flex items-center justify-between gap-12 relative duration-300" key={id}>
+                            <div className="flex items-center justify-between gap-5 md:gap-8 lg:gap-12 relative duration-300 max-lg:flex-col-reverse" key={id}>
                                 <div>
+                                    <h1 className='font-geometric font-bold text-3xl sm:text-4xl md:text-custom-2xl lg:text-[86px] text-orange text-opacity-10 !leading-120'>{obj.value}</h1>
                                     <h2 className="font-bold text-custom-lg leading-120 font-geometric">{obj.title}</h2>
-                                    <Paragraph className="max-w-[525px]" paragraphText={obj.desc} />
+                                    <Paragraph className="lg:max-w-[525px]" paragraphText={obj.desc} />
                                     <div className="flex items-center gap-3 mt-3">
                                         <button onClick={leftSideHandler} className="size-10 rounded-full border border-black flex justify-center items-center xxl:absolute xxl:top-1/2 xxl:-translate-y-1/2 xxl:-left-[77px]"><Icons iconName="leftArrow" /></button>
                                         <button onClick={rightSideHandler} className="size-10 rounded-full border border-black rotate-180 flex justify-center items-center xxl:absolute xxl:top-1/2 xxl:-translate-y-1/2 xxl:-right-[77px]">
-                                        <Icons iconName="leftArrow" /></button>
+                                            <Icons iconName="leftArrow" /></button>
                                     </div>
                                 </div>
-                                <img className="w-[541px] h-[451px] object-cover object-center rounded-md" src={obj.path} alt={obj.alt} />
+                                <img className="w-full lg:w-[541px] h-[237px] sm:h-[311px] lg:h-[451px] object-cover object-center rounded-md" src={obj.path} alt={obj.alt} />
                             </div>
                         )
                     ))}
                 </div>
             </div>
-            <img src={Ellipse} className='absolute z-0 pointer-events-none left-0 -top-1/2 w-[307px] h-[664px]' alt="ellipse" />
+            <img src={Ellipse} className='max-md:opacity-25 absolute z-0 pointer-events-none left-0 -top-1/2 w-[307px] h-[664px]' alt="ellipse" />
         </div>
     );
 };

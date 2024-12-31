@@ -25,25 +25,25 @@ export const SERVICES = [
   {
     value: "01",
     title: "Video Production",
-    desc: "Capture customer attention and serve emotionally engaging content by adding drone videos to your website and marketing materials. Promote your brand as cutting-edge, unique, and differentiated while helping your customers engage with your product in the best way possible.",
+    desc: "Capture customer attention and serve emotionally engaging content by adding drone videos to your website and marketing materials. Promote your brand as cutting-edge, unique, and differentiated while helping your customers engage with your product in best way.",
     path: `${require('../assets/images/png/services-one.png')}`,
   },
   {
-    value: "01",
+    value: "02",
     title: "Review Production",
     desc: "Develop modern, innovative apps that enhance user experiences and drive engagement. Our app production solutions focus on seamless design, functionality, and quality, delivering applications that align with your brand’s vision and captivate your audience effectively.",
     path: `${require('../assets/images/png/about-xl.png')}`,
   },
   {
-    value: "02",
+    value: "03",
     title: "Web Production",
-    desc: "Capture customer attention and serve emotionally engaging content by adding drone videos to your website and marketing materials. Promote your brand as cutting-edge, unique, and differentiated while helping your customers engage with your product in the best way possible.",
+    desc: "Capture customer attention and serve emotionally engaging content by adding drone videos to your website and marketing materials. Promote your brand as cutting-edge, unique, and differentiated while helping your customers engage with your product in best way.",
     path: `${require('../assets/images/png/experience.png')}`,
   },
   {
-    value: "03",
+    value: "04",
     title: "App Production",
-    desc: "Build a dynamic web presence with innovative designs and immersive content. Our web production services ensure your brand stands out online, offering users a cutting-edge, unique experience that connects with your audience in meaningful and impactful ways.",
+    desc: "Build a dynamic web presence with innovative designs and immersive content. Our web production services ensure your brand stands out online, offering users a cutting-edge, unique experience that connects with your audience in meaningful and the most impactful ways.",
     path: `${require('../assets/images/png/quality.png')}`,
   },
 ]
