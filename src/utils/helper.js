@@ -66,3 +66,35 @@ export const NAV_LINKS = [
     url: "#contact",
   },
 ];
+
+// EXPERIENCE SLIDER IMAGES
+export const EX_DATA = [
+  {
+    alt: "image-one",
+    path: `${require('../assets/images/png/experience-one.png')}`,
+  },
+  {
+    alt: "image-two",
+    path: `${require('../assets/images/png/experience-two.png')}`,
+  },
+  {
+    alt: "image-three",
+    path: `${require('../assets/images/png/experience-third.png')}`,
+  },
+  {
+    alt: "image-four",
+    path: `${require('../assets/images/png/experience-four.png')}`,
+  },
+  {
+    alt: "image-five",
+    path: `${require('../assets/images/png/experience-five.png')}`,
+  },
+  {
+    alt: "image-six",
+    path: `${require('../assets/images/png/experience-six.png')}`,
+  },
+  {
+    alt: "image-seven",
+    path: `${require('../assets/images/png/experience-seven.png')}`,
+  },
+]
