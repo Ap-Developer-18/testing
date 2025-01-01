@@ -16,7 +16,7 @@ const Experience = () => {
   return (
     <div className="px-6 mx-auto relative">
       <div className={`max-w-[1391px] mx-auto rounded-xl py-6 sm:py-8 md:py-12 lg:py-20 bg-black relative`}>
-        <div className="container max-w-[1188px] max-sm:!px-3 max-md:!px-4">
+        <div className="container lg:max-w-[1188px] max-sm:!px-3 max-md:!px-4">
           <SectionName className={`justify-center`} bgWhite={true} mainText='text-white' textName='THE BEST EXPERIENCE' />
           <Heading className="text-white text-center" firstText="Know&nbsp;" simpleText="More Through" secondText="Videos" />
           <img src={ellipseImg} className='absolute left-0 top-0 pointer-events-none' alt="ellipse" />
