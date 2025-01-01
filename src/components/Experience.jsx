@@ -4,7 +4,6 @@ import Heading from './common/Heading';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
@@ -16,14 +15,11 @@ import { EX_DATA } from '../utils/helper';
 
 const Experience = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
-  const isBgWhite = false;
-
   return (
     <div className="px-6 mx-auto">
       <div className={`max-w-[1391px] mx-auto rounded-xl py-6 sm:py-8 md:py-12 lg:py-20 bg-black`}>
         <div className="container max-w-[1188px] max-sm:!px-3 max-md:!px-4">
-          <SectionName mainText='text-white' textName='THE BEST EXPERIENCE'
-            bgColor={isBgWhite ? 'black' : 'white'} />
+          <SectionName className={`justify-center`} bgWhite={true} mainText='text-white' textName='THE BEST EXPERIENCE' />
           <Heading className="text-white text-center" firstText="Know&nbsp;" simpleText="More Through" secondText="Videos" />
           <div>
             <Swiper
