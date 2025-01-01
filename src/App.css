@@ -31,3 +31,7 @@
 * {
   font-family: "Poppins", serif;
 }
+
+.swiper-slide-thumb-active {
+  @apply shadow-custom scale-125 duration-300;
+}

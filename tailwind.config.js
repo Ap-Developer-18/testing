@@ -29,6 +29,9 @@ module.exports = {
         140: "140%",
         150: "150%",
       },
+      boxShadow: {
+        "custom": "0px -2px 29.9px 0px #E67E224D",
+      },
     },
   },
   plugins: [],
