@@ -97,4 +97,24 @@ export const EX_DATA = [
     alt: "image-seven",
     path: `${require('../assets/images/png/experience-seven.png')}`,
   },
-]
+];
+
+// NEWS DATA
+export const NEWS_DATA = [
+  {
+    imgPath: `${require('../assets/images/png/news-one.png')}`,
+    alt: "news one",
+    date: "Jan 04, 2023",
+    title: "Drones in Live Sports Broadcasting",
+    desc: "The Rangers took home their first World Series win on Nov 1, but we have a different top story from the five game...",
+    readMore: "Read more",
+  },
+  {
+    imgPath: `${require('../assets/images/png/news-two.png')}`,
+    alt: "news two",
+    date: "Aug 09, 2023",
+    title: "FPV Drones in Cinema (so far...)",
+    desc: "As a massive horror movie fan, I love the direction that high-horror directors such as Ari Aster...",
+    readMore: "Read more",
+  },
+];
