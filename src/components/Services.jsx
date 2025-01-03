@@ -38,7 +38,7 @@ const Services = () => {
                                             <Icons iconName="leftArrow" /></button>
                                     </div>
                                 </div>
-                                <img className="w-full lg:w-[541px] h-[237px] sm:h-[311px] lg:h-[451px] object-cover object-center rounded-md" src={obj.path} alt={obj.alt} />
+                                <img className="w-full lg:w-[541px] h-[237px] sm:h-[330px] md:h-[419px] lg:h-[451px] object-cover object-center rounded-md" src={obj.path} alt={obj.alt} />
                             </div>
                         )
                     ))}

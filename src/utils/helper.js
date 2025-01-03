@@ -118,3 +118,49 @@ export const NEWS_DATA = [
     readMore: "Read more",
   },
 ];
+
+// PORTFOLIO SECTION DATA HERE
+export const PORTFOLIO_DATA = [
+  {
+    alt: "portfolio one",
+    path: `${require('../assets/images/png/portfolio-one.png')}`,
+    hoverTitle: "Drones in Live Event Broadcasting in UAE",
+    hoverDesc: "The Rangers took home their first World Series win on Nov 1, but ...",
+    knowMore: "Know more",
+  },
+  {
+    alt: "portfolio two",
+    path: `${require('../assets/images/png/portfolio-two.png')}`,
+    hoverTitle: "Drones in Live Event Broadcasting in UAE",
+    hoverDesc: "The Rangers took home their first World Series win on Nov 1, but ...",
+    knowMore: "Know more",
+  },
+  {
+    alt: "portfolio three",
+    path: `${require('../assets/images/png/portfolio-three.png')}`,
+    hoverTitle: "Drones in Live Event Broadcasting in UAE",
+    hoverDesc: "The Rangers took home their first World Series win on Nov 1, but ...",
+    knowMore: "Know more",
+  },
+  {
+    alt: "portfolio four",
+    path: `${require('../assets/images/png/portfolio-four.png')}`,
+    hoverTitle: "Drones in Live Event Broadcasting in UAE",
+    hoverDesc: "The Rangers took home their first World Series win on Nov 1, but ...",
+    knowMore: "Know more",
+  },
+  {
+    alt: "portfolio two",
+    path: `${require('../assets/images/png/portfolio-two.png')}`,
+    hoverTitle: "Drones in Live Event Broadcasting in UAE",
+    hoverDesc: "The Rangers took home their first World Series win on Nov 1, but ...",
+    knowMore: "Know more",
+  },
+  {
+    alt: "portfolio three",
+    path: `${require('../assets/images/png/portfolio-three.png')}`,
+    hoverTitle: "Drones in Live Event Broadcasting in UAE",
+    hoverDesc: "The Rangers took home their first World Series win on Nov 1, but ...",
+    knowMore: "Know more",
+  },
+];

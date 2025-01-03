@@ -23,10 +23,10 @@ const Experience = () => {
           <img src={dots} className='absolute left-0 -top-[116px] pointer-events-none max-lg:hidden' alt="ellipse" />
           <div>
             <Swiper effect={'fade'} thumbs={{ swiper: thumbsSwiper }} modules={[EffectFade, FreeMode, Thumbs]}
-              className="mySwiper2 max-lg:max-w-[1000px] w-full h-[330px] sm:h-[400px] md:h-[492px] mt-4 sm:mt-6 md:mt-8 lg:mt-12">
+              className="mySwiper2 max-lg:max-w-[1000px] w-full h-[237px] sm:h-[330px] md:h-[419px] lg:h-[492px] mt-4 sm:mt-6 md:mt-8 lg:mt-12">
               {EX_DATA.map((obj, index) => (
                 <SwiperSlide key={index}>
-                  <img className='w-full h-[330px] sm:h-[400px] md:h-[492px] object-cover object-center rounded-md border-[2px] md:border-[6px] xl:border-[12px] border-orange border-opacity-15' src={obj.path} alt={obj.alt} />
+                  <img className='w-full h-[237px] sm:h-[330px] md:h-[419px] lg:h-[492px] object-cover object-center rounded-md border-[2px] md:border-[6px] xl:border-[12px] border-orange border-opacity-15' src={obj.path} alt={obj.alt} />
                 </SwiperSlide>
               ))}
             </Swiper>
