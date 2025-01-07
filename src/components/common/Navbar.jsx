@@ -19,7 +19,9 @@ const Navbar = () => {
   return (
     <nav className="relative">
       <div className="flex items-center justify-between pt-6 container lg:max-w-[1188px]">
-        <img src={PageLogo} className="w-[60px] h-9 lg:w-[90px] lg:h-[58px]" alt="Page Logo" loading="lazy" />
+        <Link to="/">
+          <img src={PageLogo} className="w-[60px] h-9 lg:w-[90px] lg:h-[58px]" alt="Page Logo" loading="lazy" />
+        </Link>
         <div className="hidden lg:flex gap-4 justify-between items-center w-full max-w-[592px]">
           {NAV_LINKS.map((obj, i) => (
             <Link
