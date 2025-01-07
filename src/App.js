@@ -31,8 +31,6 @@ function App() {
       <News />
       <Expertise />
       <Portfolio />
-      <Reviews />
-      <Clients />
       <ContactUs />
       <Footer />
     </div>
