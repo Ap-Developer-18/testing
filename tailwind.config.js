@@ -14,6 +14,7 @@ module.exports = {
         "orange": "#E67E22",
         "light-dark": "#4D4D4D",
         "light-pink": "#FFF7EF",
+        "light-black": "#A0A0A0",
       },
       fontSize: {
         "custom-lg": "32px",

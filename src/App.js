@@ -8,21 +8,16 @@ import Experience from './components/Experience';
 import News from './components/News';
 import Expertise from './components/Expertise';
 import Portfolio from './components/Portfolio';
-import Reviews from './components/Reviews';
-import Clients from './components/Clients';
 import ContactUs from './components/ContactUs';
 import Footer from './components/common/Footer';
 import { HERO_BG } from './utils/helper';
-import { BrowserRouter, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div>
       <div className='bg-center bg-cover bg-no-repeat' style={HERO_BG}>
-        <BrowserRouter>
-          <Navbar />
-          <Hero />
-        </BrowserRouter>
+        <Navbar />
+        <Hero />
       </div>
       <Result />
       <About />

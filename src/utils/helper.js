@@ -164,3 +164,21 @@ export const PORTFOLIO_DATA = [
     knowMore: "Know more",
   },
 ];
+
+export const MENU_DATA = {
+  "Quick Links": [
+    { name: "Home", link: "#" },
+    { name: "About us", link: "#" },
+    { name: "Services", link: "#" },
+    { name: "Blog", link: "#", external: true },
+  ],
+  "About Us": [
+    { name: "Why We are Best", link: "#" },
+    { name: "What We Do", link: "#about-us" },
+  ],
+  "Register": [
+    { name: "Contact Us", link: "#" },
+    { name: "Privacay and Policy", link: "#" },
+    { name: "Terms and Condition", link: "#" },
+  ],
+};
