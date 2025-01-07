@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import PageLogo from "../../assets/images/png/page-logo.png";
+import PageLogo from "../../assets/images/webp/page-logo.webp";
 import { Link } from "react-router-dom";
 import Button from "./Button";
 import { NAV_LINKS } from "../../utils/helper";

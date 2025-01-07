@@ -1,5 +1,5 @@
 import React from 'react'
-import expertiseImg from '../assets/images/png/expertise.png'
+import expertiseImg from '../assets/images/webp/expertise.webp'
 import SectionName from './common/SectionName'
 import Heading from './common/Heading'
 import Paragraph from './common/Paragraph'

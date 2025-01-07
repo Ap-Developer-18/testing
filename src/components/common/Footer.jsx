@@ -1,7 +1,7 @@
 import React from "react";
 import Icons from "./Icons";
 import { MENU_DATA } from "../../utils/helper";
-import PageLogo from "../../assets/images/png/page-logo.png";
+import PageLogo from "../../assets/images/webp/page-logo.webp";
 import { Link } from "react-router-dom";
 
 const Footer = () => {

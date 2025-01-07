@@ -4,7 +4,7 @@ import Heading from './common/Heading';
 import { SERVICES } from '../utils/helper';
 import Paragraph from './common/Paragraph';
 import Icons from './common/Icons';
-import Ellipse from '../assets/images/png/services-ellipse.png'
+import Ellipse from '../assets/images/webp/services-ellipse.webp'
 
 const Services = () => {
     const [index, setIndex] = useState(0);
@@ -38,7 +38,7 @@ const Services = () => {
                                             <Icons iconName="leftArrow" /></button>
                                     </div>
                                 </div>
-                                <img className="w-full lg:w-[541px] h-[237px] sm:h-[330px] md:h-[419px] lg:h-[451px] object-cover object-center rounded-md" src={obj.path} alt={obj.alt} />
+                                <img className="w-full lg:w-[541px] h-[237px] sm:h-[330px] md:h-[419px] lg:h-[451px] object-cover object-center rounded-md" src={obj.path} alt={obj.title} />
                             </div>
                         )
                     ))}

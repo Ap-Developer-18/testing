@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import SectionName from './common/SectionName';
 import Heading from './common/Heading';
-import ellipseImg from '../assets/images/png/experience-ellipse.png'
-import dots from '../assets/images/png/dots-ellipse.png'
+import ellipseImg from '../assets/images/webp/experience-ellipse.webp'
+import dots from '../assets/images/webp/dots-ellipse.webp'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
