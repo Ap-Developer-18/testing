@@ -19,7 +19,6 @@ const Experience = () => {
         <div className="container lg:max-w-[1188px] max-sm:!px-3 max-md:!px-4">
           <SectionName className={`justify-center`} bgWhite={true} mainText='text-white' textName='THE BEST EXPERIENCE' />
           <Heading className="text-white text-center" firstText="Know&nbsp;" simpleText="More Through" secondText="Videos" />
-          <img src={ellipseImg} className='absolute left-0 top-0 pointer-events-none' alt="ellipse" />
           <img src={dots} className='absolute left-0 -top-[116px] pointer-events-none max-lg:hidden' alt="ellipse" />
           <div>
             <Swiper effect={'fade'} thumbs={{ swiper: thumbsSwiper }} modules={[EffectFade, FreeMode, Thumbs]}

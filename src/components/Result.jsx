@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { lazy } from 'react'
 import SectionName from './common/SectionName'
 import Heading from './common/Heading'
 import { RESULT } from '../utils/helper'
@@ -24,7 +24,7 @@ const Result = () => {
           ))}
         </div>
         <img src={DotsEllipse} className='max-md:opacity-30 absolute left-0 -top-[70px] z-[-1] pointer-events-none' alt="dots" />
-        <img src={ZigZag} className='max-md:opacity-30 absolute -top-[318px] pointer-events-none z-[-1] right-0' alt="zig zag line" />
+        <img src={ZigZag} className='max-md:opacity-30 absolute -top-[318px] pointer-events-none z-[-1] right-0 max-sm:hidden' loading={lazy} alt="zig zag line" />
       </div>
     </div>
   )
